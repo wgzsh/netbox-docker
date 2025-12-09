@@ -53,7 +53,7 @@ You should see the NetBox homepage.
 To create the first admin user run this command:
 
 ```bash
-docker compose exec netbox /opt/netbox/netbox/manage.py createsuperuser
+docker-compose exec netbox /opt/netbox/netbox/manage.py createsuperuser
 ```
 
 If you need to restart Netbox from an empty database often,
